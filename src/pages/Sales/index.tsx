@@ -132,7 +132,7 @@ const Sales: React.FC = () => {
     {
       key: 'actions',
       label: 'Ações',
-      render: (_: any, sale: Sale) => (
+      render: () => (
         <Actions>
           <ActionButton title="Visualizar">
             <FaEye size={16} />
